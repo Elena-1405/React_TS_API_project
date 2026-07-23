@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import React, { Component }  from 'react';
+import React from 'react';
 
 function getElement(moveCard: MoveCard): JSX.Element {
     if (moveCard.originalTitleText == null || moveCard.primaryImage == null) {
