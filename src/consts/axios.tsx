@@ -13,7 +13,7 @@ export const moviesListParams = {
   method: 'GET',
   url: BASE_URL,
   headers: {
-    'X-RapidAPI-Key': '25f11966f0mshc3667469a80739fp1d7c41jsn0905e1b722a9',
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com',
   },
 };
