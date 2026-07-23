@@ -14,6 +14,6 @@ export const moviesListParams = {
   url: BASE_URL,
   headers: {
     'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
-    'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com',
+    'X-RapidAPI-Host': apiHost,
   },
 };
