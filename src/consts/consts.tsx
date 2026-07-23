@@ -17,7 +17,7 @@ export interface User {
 
 export interface Action {
   type: string;
-  payload: any;
+  payload: unknown;
   onError?: (error: string) => void;
 }
 
