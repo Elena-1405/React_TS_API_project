@@ -1,4 +1,4 @@
-import axios, { AxiosRequestConfig } from 'axios';
+import { AxiosRequestConfig } from 'axios';
 import { BASE_URL, MOVIE_URL, apiHost, keyAxiosHeader } from '../consts/consts';
 
 export const movieApiOptions: AxiosRequestConfig = {
