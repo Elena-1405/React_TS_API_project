@@ -13,7 +13,7 @@ export const Search = () => {
     setInputValue(event.target.value);
   };
 
-  const [focused, setFocused] = useState(false);
+  const [, setFocused] = useState(false);
   const onFocus = () => setFocused(true);
   const onBlur = () => setFocused(false);
 
