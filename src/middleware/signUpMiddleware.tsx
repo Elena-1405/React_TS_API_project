@@ -1,7 +1,7 @@
 import { Middleware } from 'redux';
 import { RootState } from '../store/index';
 import { User } from '../consts/consts';
-import { Action } from 'redux';
+import { Action } from '../consts/consts';
 import { ACTION_TYPE } from '../consts/consts';
 
 export const signUpMiddleware: Middleware = (store) => (next) => (action: Action) => {
