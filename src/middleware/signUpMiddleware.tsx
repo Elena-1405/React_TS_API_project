@@ -4,7 +4,7 @@ import { User } from '../consts/consts';
 import { Action } from '../consts/consts';
 import { ACTION_TYPE } from '../consts/consts';
 
-export const signUpMiddleware: Middleware = (store) => (next) => (action: Action | any) => {
+export const signUpMiddleware: Middleware = (store) => (next) => (action: Action | unknown) => {
   const currentStore: RootState = store.getState();
   if (action && action.payload?.error) {
     alert(action.payload.error);
